@@ -1,5 +1,7 @@
 # Lumen: AI Dementia Memory & Multi-Face Assistant 🧠✨
-https://hackathon-ai-rc3l.vercel.app/
+
+> 🌐 **Live Demo**: [https://hackathon-ai-rc3l.vercel.app/](https://hackathon-ai-rc3l.vercel.app/)
+>
 > An empathetic, real-time visual and conversational memory companion designed to help people living with dementia recognize loved ones, remember personal stories, and feel grounded and dignified at home.
 
 ---
@@ -37,6 +39,13 @@ For individuals living with Alzheimer's disease or related dementias, familiar f
   - Interactive face focus: click any person to view their specific memories and relationship recap.
 - **"Family in View" Room Presence HUD**:
   - Displays a floating banner when multiple family members or visitors are present (e.g. `👥 Family Present (2): Sarah Chen & James Hale`).
+- **Accessible Conversational Memory Chatbot ("Ask Lumen")**:
+  - Empathetic AI memory companion accessible on every screen via a floating assistant orb or a dedicated `/chat` view.
+  - **Dementia-friendly language**: short, calming, unambiguous answers grounded strictly in verified family notes and memories.
+  - **Visual Face Chips**: renders recognized photos and relationship tags right in chat messages so faces are instantly recognizable.
+  - **Voice Input (STT)**: one-tap microphone input so users don't need to struggle with keyboards.
+  - **Voice Read Aloud (TTS)**: gentle, soothing speech synthesis speaks answers aloud.
+  - **Accessibility text sizing**: standard, large, and extra-large typography toggles for senior accessibility.
 - **Empathetic Spoken Voice**:
   - Uses Web Speech synthesis to deliver gentle audio announcements (e.g. *"Both Sarah and James are here with you"*).
 - **Unknown Face Enrollment**:

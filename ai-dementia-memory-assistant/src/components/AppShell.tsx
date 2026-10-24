@@ -3,12 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
+import { ChatAssistant } from "./ChatAssistant";
 
 const links = [
   { href: "/", label: "Live" },
   { href: "/people", label: "People" },
   { href: "/memories", label: "Memories" },
   { href: "/caregiver", label: "Caregiver" },
+  { href: "/chat", label: "Chat" },
 ];
 
 export function BrandMark({ large = false }: { large?: boolean }) {
@@ -70,6 +72,7 @@ export function AppShell({
         </nav>
       </header>
       {children}
+      {pathname !== "/chat" && <ChatAssistant />}
     </div>
   );
 }
